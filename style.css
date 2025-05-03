@@ -472,6 +472,80 @@ section {
       margin-bottom: 10px;
     }
 }
+
+/* ======= RESPONSIVE DESIGN PARA CELULAR ======= */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  header,
+  nav,
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    width: 100%;
+  }
+
+  .navbar-links a {
+    padding: 10px;
+    display: block;
+    width: 100%;
+  }
+
+  .contenedor-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .item-menu {
+    width: 100%;
+    text-align: center;
+  }
+
+  .item-menu img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .seccion-nosotros,
+  .seccion-reservas {
+    padding: 15px;
+  }
+
+  .form-reserva input,
+  .form-reserva textarea,
+  .form-reserva button {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+  }
+}
+
   
       
   
